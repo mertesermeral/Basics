@@ -1,0 +1,20 @@
+@model List<Employee>
+
+<div class="display-3">
+
+@foreach (Employee x in Model)
+{
+ <div>
+ <h6>@x.FullName</h6>
+ <p>@x.Id</p>
+ <p>Age: @x.Age </p>
+ <hr>
+
+
+ </div>   
+
+
+
+}
+
+</div>
